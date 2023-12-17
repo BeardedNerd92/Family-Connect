@@ -1,1 +1,7 @@
-@import "header";
+@import "./main";
+
+@import "../components/MainDashboard/SideHeader/SideHeader";
+@import "../components/MainDashboard/TopHeader/top.header";
+@import "../components/MainDashboard/BottomHeader/bottom.header";
+@import "../components/MainDashboard/MainSection/main.sec";
+@import "../components/properties/Card/card.scss";
