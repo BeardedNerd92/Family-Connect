@@ -24,7 +24,7 @@ const config = {
     devServer: {
         port: 5000,
         static: {
-            directory: path.join(__dirname, 'src/public')
+            directory: path.join(__dirname, 'public')
         },
         open: true,
         host: 'localhost',
@@ -37,7 +37,7 @@ const config = {
     watch: true,
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'src/public/index.html',
+            template: 'public/index.html',
             hash: true,
         }),
 
